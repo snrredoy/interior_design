@@ -1,0 +1,345 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: border-box;
+  font-family: sans-serif, Arial, Verdana, Geneva, Tahoma;
+}
+
+/*bar*/
+.bar {
+  height: 8px;
+  width: 50px;
+  background-color: #fe6347;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+/*option name*/
+.option-name {
+  color: #fe6347;
+  font-size: 3em;
+  font-weight: 550;
+  padding-top: 15px;
+}
+
+/* Header Section */
+/*side bar start*/
+.sidebar {
+  background-color: #fe6347;
+  width: 25vw;
+  height: 100vh;
+  position: fixed;
+}
+
+.sidebar a {
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: 550;
+  color: white;
+  display: block;
+  padding-left: 50px;
+  padding-bottom: 20px;
+}
+
+.sidebar-title {
+  font-size: 1.6em;
+  font-weight: 550;
+  padding: 150px 100px 75px 0;
+}
+/*Side bar end*/
+
+/*Main body section */
+.main-body {
+  position: absolute;
+  left: 28vw;
+  top: 10vh;
+}
+
+.name {
+  font-size: 4em;
+  font-weight: 700;
+  margin: 10px 10px 10px 0;
+}
+
+/* showcase section */
+/*showcase section start*/
+/*showcase images*/
+.showcase-images {
+  margin-top: 30px;
+}
+
+.image1,
+.image2 {
+  height: 60vh;
+  width: 34vw;
+  margin-right: 15px;
+  margin-bottom: 5px;
+}
+
+.image3,
+.image4,
+.image5,
+.image6 {
+  height: 38vh;
+  width: 34vw;
+  margin-right: 15px;
+  margin-bottom: 5px;
+}
+/*showcase section end*/
+
+/* Services */
+/*services section start*/
+#services {
+  margin-top: 50px;
+}
+
+.service-text {
+  margin-top: 30px;
+  margin-right: 50px;
+  font-size: 1.2em;
+  text-align: justify;
+}
+/*service section end*/
+
+/*Designers */
+/*Designers section start*/
+#designers {
+  margin-top: 50px;
+}
+
+.designers-text {
+  margin-top: 30px;
+  margin-right: 50px;
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+.designers-title {
+  margin-top: 15px;
+  font-size: 1.3em;
+  font-weight: 550;
+}
+
+/*Designers details*/
+.designer-details {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Designer about, picture, position set in container */
+.designer-container {
+  width: 22vw;
+  background-color: #f1f1f1;
+}
+
+.designer-container img {
+  height: 35vh;
+  width: 22vw;
+}
+
+.designer-name {
+  font-size: 1.5em;
+  margin: 10px 10px 20px 15px;
+}
+
+.designer-position {
+  font-size: 1.1em;
+  margin: 15px 10px 20px 15px;
+  color: #7f7f7f;
+}
+
+.designer-about {
+  font-size: 1.1em;
+  margin: 0 15px 0 15px;
+  text-align: justify;
+  padding-bottom: 10px;
+}
+/* Designer section end*/
+
+/*Packages */
+/* Package section start*/
+#packages {
+  margin-top: 80px;
+}
+
+.package-text {
+  margin-top: 15px;
+  font-size: 1.2em;
+  margin-right: 40px;
+}
+
+/* set package height width and use display flex*/
+.package-basic,
+.package-pro {
+  margin-top: 20px;
+  height: 70vh;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.title {
+  color: white;
+  background-color: #616161;
+  height: 10vh;
+  width: 30vw;
+  font-size: 1.7em;
+}
+
+/*package feature*/
+.package-details {
+  height: 7vh;
+  width: 100%;
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #dfdfdf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.package-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*package rate control*/
+.package-rate {
+  height: 12vh;
+  width: 100%;
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.button-div {
+  height: 75%;
+}
+
+.button-div span {
+  font-size: 1.6em;
+  margin: 5px;
+}
+
+/* package button control */
+#minus-button-basic,
+#minus-button-pro,
+#plus-button-basic,
+#plus-button-pro {
+  border: none;
+  padding: 10px;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+/*room control*/
+.room_select {
+  text-align: center;
+  color: #616161;
+}
+
+/*sign up button */
+#sign-up-basic,
+#sign-up-pro {
+  height: 10vh;
+  width: 100%;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-sign-up {
+  padding: 15px 20px 15px 20px;
+  background-color: #fe6347;
+  color: white;
+  font-size: 1.02em;
+  border: none;
+  cursor: pointer;
+}
+
+.button-sign-up:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Showing how many room*/
+#message-basic,
+#message-pro {
+  height: 5vh;
+  width: 100%;
+  border-top: 1px solid #dfdfdf;
+  text-align: center;
+  padding-top: 20px;
+  color: #616161;
+}
+
+/*package control using flex*/
+.packages-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 50px;
+}
+
+.package-pro .title {
+  background-color: #fe6347;
+}
+/* package section end */
+
+/*Contact*/
+/* Contact section start*/
+#contact {
+  margin-top: 100px;
+}
+
+.contact-text {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+}
+
+/* form design*/
+#full-name,
+#email,
+#message {
+  width: 95%;
+  height: 3.5vh;
+  margin-bottom: 20px;
+}
+/*submit button*/
+#submit-button {
+  height: 4.5vh;
+  width: 95.5%;
+  margin-bottom: 10vh;
+  background-color: #fe6347;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+#submit-button:hover {
+  background-color: #616161;
+  border: 1px solid #fe6347;
+}
+/* Contact section end*/
+
+/*footer start*/
+.footer-end {
+  height: 8vh;
+  width: 73.7vw;
+  background-color: #f1f1f1;
+  position: absolute;
+  left: -40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*copyright*/
+.copyright {
+  color: #7f7f7f;
+}
+/* footer section end*/
