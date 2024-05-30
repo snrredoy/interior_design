@@ -62,11 +62,13 @@ document
 
 // Show sign up button click event
 document.getElementById("sign-up-basic").addEventListener("click", function () {
+  messageColorBasic();
   messageBasic.textContent =
     "Thank you for choosing " + room_count_basic + " room";
 });
 
 document.getElementById("sign-up-pro").addEventListener("click", function () {
+  messageColorPro();
   messagePro.textContent = "Thank you for choosing " + room_count_pro + " room";
 });
 
