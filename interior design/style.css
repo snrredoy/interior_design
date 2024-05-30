@@ -29,6 +29,7 @@
   width: 25vw;
   height: 100vh;
   position: fixed;
+  z-index: 2;
 }
 
 .sidebar a {
@@ -241,8 +242,8 @@
 }
 
 /*sign up button */
-#sign-up-basic,
-#sign-up-pro {
+.sign-up,
+.sign-up {
   height: 10vh;
   width: 100%;
   background-color: #f1f1f1;
@@ -333,6 +334,7 @@
   background-color: #f1f1f1;
   position: absolute;
   left: -40px;
+  z-index: 1;
   display: flex;
   justify-content: center;
   align-items: center;
